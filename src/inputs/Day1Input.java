@@ -1,8 +1,8 @@
 package inputs;
 
-public final class Day1A {
+public final class Day1Input {
 	
-	private Day1A() {}
+	private Day1Input() {}
 	
 	//would prefer to use input file and line reader but following MVP until I run out of puzzles/have more time
 	//for now, copied straight from source
