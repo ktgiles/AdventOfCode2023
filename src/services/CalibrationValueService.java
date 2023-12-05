@@ -6,10 +6,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.lang3.ArrayUtils;
+
 public class CalibrationValueService {
 	
 	private CalibrationValueService() {}
 	
+	@SuppressWarnings("serial")
 	public static Map <String, String> conversion = new HashMap<String, String>()
 	{
 		{
@@ -106,6 +109,5 @@ public class CalibrationValueService {
 		}
 		return sum;
 	}
-	
 	
 }
