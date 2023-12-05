@@ -8,7 +8,9 @@ public class Day2 {
 	public class Day1 {
 		
 		public static void main(String[] args) {
-			BlockGameService.process(Day2Input.gameValues);
+			BlockGameService.getValidGames(Day2Input.gameValues);
+			BlockGameService.sumPowers(Day2Input.gameValues);
+
 		}
 	}
 
